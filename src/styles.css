@@ -43,32 +43,32 @@ swiper {
     position: absolute;
     animation: astronout 2s infinite alternate linear;
     -webkit-animation: astronout  4s infinite alternate linear;
-    width: 400px;
+    width: 200px;
 }
 
 .banner-astronout1 {
   position: absolute;
   animation: astronout1 2s infinite alternate linear;
   -webkit-animation: astronout1  4s infinite alternate linear;
-  width: 400px;
+  width: 200px;
 }
 
 @keyframes astronout1 {
   0% {
-    left: 70%;
-    top: 25%;
+    left: 60%;
+    top: 35%;
   }
 
   100% {
-    left: 60%;
-    top: 35%;
+    left: 70%;
+    top: 20%;
   }
 }
 
 
 @keyframes astronout {
   0% {
-    left: 50%;
+    left: 70%;
     top: 45%;
   }
 

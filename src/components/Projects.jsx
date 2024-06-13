@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import img1 from "../assets/images/project-img1.png";
 import img2 from "../assets/images/project-img2.png";
 import img3 from "../assets/images/project-img3.png";
+import project1 from "../assets/images2/blog.jpg";
+import project2 from "../assets/images2/project2.jpg"
+import project3 from '../assets/images2/project3.jpg'
+
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -12,27 +16,28 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img1,
+      title: "Nobertechx Blog",
+      description: "Best article combination on tech",
+      img: project1,
     },
     {
       id: 2,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img2,
+      title: "Welfare Management System",
+      description: "Transparency and accountability",
+      img: project2,
     },
     {
       id: 3,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img3,
+      title: "File Handling",
+      description: "Managing, cleaning, & combining files",
+      img: project3,
     },
     {
       id: 4,
       title: "Business Startup",
       description: "Design & Development",
       img: img2,
+  
     },
     {
       id: 5,
@@ -73,7 +78,7 @@ function Projects() {
               durum === 2 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
             }  `}
           >
-            Text-1
+            Values
           </button>
           <button
             onClick={() => setDurum(3)}

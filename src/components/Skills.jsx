@@ -32,14 +32,14 @@ function Skills() {
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Web Dev</h1>
+                  <h1 className="font-bold text-2xl my-2">Django</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Frontend </h1>
+                  <h1 className="font-bold text-2xl my-2">Laravel </h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
@@ -54,7 +54,7 @@ function Skills() {
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Javascript</h1>
+                  <h1 className="font-bold text-2xl my-2">C</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
@@ -62,6 +62,13 @@ function Skills() {
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
                   <h1 className="font-bold text-2xl my-2">Tailwind</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className=" bg-[#171717]">
+                {" "}
+                <div className=" bg-[#171717]">
+                  <img src={img} alt="" />
+                  <h1 className="font-bold text-2xl my-2">Linux</h1>
                 </div>
               </SwiperSlide>
             </Swiper>
