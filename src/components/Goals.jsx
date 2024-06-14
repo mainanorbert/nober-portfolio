@@ -3,9 +3,9 @@ import React from 'react'
 const Goals = () => {
     return (
         <>
-            <div className='flex justify-center'>
+            <div className='md:flex justify-center'>
 
-                <div className='h-3rem] flex w-8/12 justify-around space-x-2'>
+                <div className='h-3rem] flex md:w-8/12 justify-around space-x-2'>
                     <div className='border max-w-[20rem] rounded'>
                         <h1 className='font-bold'>Personal Goal</h1>
                         <p className='text-left p-1'> To be a responsible and hardworking individual with integrity by embracing intellectual growth and a

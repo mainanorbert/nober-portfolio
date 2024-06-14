@@ -58,9 +58,9 @@ function Navbar() {
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
           </div>
-          <div className="btn">
+          <div  className="btn">
             <button className="border-[1px] border-white border-solid rounded py-2 px-4 hover:bg-white hover:text-black font-bold">
-              Let's Connect
+              <AnchorLink href="#contact">Let's Connect</AnchorLink>
             </button>
           </div>
         </nav>
