@@ -5,6 +5,9 @@ import img3 from "../assets/images/project-img3.png";
 import project1 from "../assets/images2/blog.jpg";
 import project2 from "../assets/images2/project2.jpg"
 import project3 from '../assets/images2/project3.jpg'
+import project4 from '../assets/images2/project4.jpg'
+import project5 from '../assets/images2/project5.jpg'
+import project6 from '../assets/images2/project6.jpg'
 
 
 
@@ -22,37 +25,43 @@ function Projects() {
       title: "Nobertechx Blog",
       description: "Best article combination on tech",
       img: project1,
+      url: 'https://www.nobertechx.xyz/'
     },
     {
       id: 2,
       title: "Welfare Management System",
       description: "Transparency and accountability",
       img: project2,
+      url: 'https://github.com/mainanorbert/Welfare_Management_System',
     },
     {
       id: 3,
       title: "File Handling",
       description: "Managing, cleaning, & combining files",
       img: project3,
+      url: 'https://github.com/mainanorbert/File_Handling',
     },
     {
       id: 4,
       title: "Olkisir",
       description: "Dispatch Management system",
-      img: img2,
+      img: project4,
+      url: 'https://olkisir.koech.tech/'
   
     },
     {
       id: 5,
       title: "AdvertsHub",
       description: "Advertise your products",
-      img: img3,
+      img: project5,
+      url: 'https://advertshub.nobertechx.xyz/'
     },
     {
       id: 6,
       title: "AirBnb Clone",
       description: "Vacation booking system",
-      img: img1,
+      img: project6,
+      url: 'https://github.com/mainanorbert/AirBnB_clone_v4'
     },
   ];
 
