@@ -7,12 +7,18 @@ import { Navigation } from "swiper";
 import { Pagination } from "swiper";
 import img from "../assets/images/meter1.svg";
 import bg from "../assets/images/banner-bg.png"
+import { motion } from 'framer-motion'
 
 function Skills() {
   return (
     <>
-      <div id="skills" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
-        <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
+      <div id="skills" style={{ backgroundImage: `url(${bg})` }} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
+        <motion.div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2"
+          initial={{ x: 0 }} // Initial position of the word
+          animate={{ x: 10 }} // Animation position
+          transition={{ duration: 5, repeat: Infinity }} // Animation duration and repeat
+         
+        >
           <h1 className="text-4xl ">Skills</h1>
           <p className="text-lg py-3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -73,7 +79,7 @@ function Skills() {
               </SwiperSlide>
             </Swiper>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
